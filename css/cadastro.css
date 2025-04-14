@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+.Fundo{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 3em;
+    align-items: center;
+}
+.Centro{
+    display: flex;
+    flex-direction: column ;
+    align-self: center;
+}
+.Input{
+
+    width: 40em;
+    border-radius: 10em;
+}
+#Concordo{
+    display: flex;
+    gap: 1em;
+}
+#pergunta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#emanuel{
+    background-color: #FFB70E;
+    border: none;
+    border-radius: 3em;
+    width: 10em;
+    cursor: pointer;
+    transition: linear, 0.5s;
+}
+#emanuel:hover{
+    width: 11em;
+}
