@@ -1,7 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap');
+*{
+    margin: 0;
+}
 body{
     background-color: black;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: white;
 }
-.logo{
-    position: absolute;
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2em;
+    margin: 1em;
+}
+#options{
+    display: flex;
+    gap: 3em;
     
+}
+.cabecario{
+    font-size: 1.5em;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    transition: linear;
+    transition: 0.5s;
+}
+.cabecario:hover{
+    font-size: 1.7em;
+    display: flex;
+    align-self: center;
+    text-decoration:underline;
+}
+#car{
+    background-color: #FFB70E;
+    color: white;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10em;
+    height: 4em;
+    width: 13em;
+    cursor:pointer;
+    transition: linear;
+    transition: 0.5s;
+}
+#car:hover{
+    height: 4.5em;
+    width: 13.5em;
+}
+#car img{
+    height: 2em;
+}
+#car p{
+    font-size: 1.5em;
+}
+#cadastro{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    color: #FFB70E;
+}
+#cadastro img{
+    width: 3em;
+    height: 3em;
+}
+#separar{
+    background-color: #FFB70E;
+    height: 0.5em;
+}
+.texto{
+    font-size: 3em;
+}
+#saiba-mais{
+    padding: 8em;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#separacao{
+    background-color: #FFB70E;
+    width: 30em;
+    height: 0.2em;
+}
+#saiba{
+    background-color: #FFB70E;
+    height: 3em;
+    width: 10em;
+    border-radius: 5em;
+    color: white;
+}
+#inicio-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+}
+#secao2{
+    background-color: white;
+    padding: 8em;
+    display: flex;
+    flex-direction: column;
+    gap: 10em;
+}
+.texto-secao2{
+    color: black;
+    font-size: 2em;
+
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    width: 20em;
+    border-radius: 3em;
+    align-items: center;
+    color: black;
+}
+.conteudo img{
+    width: 20em;
+}
+#cont-secao2{
+    display: flex;
+    justify-content: center;
+    gap: 5em;
 }
