@@ -11,14 +11,18 @@ body{
     transform: translate(-50%,-50%);
     padding: 3em;
     align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    border-radius: 7em;
 }
 .Centro{
     display: flex;
     flex-direction: column ;
-    align-self: center;
+    align-items: center;
 }
 .Input{
-
+    height: 3em;
     width: 40em;
     border-radius: 10em;
 }
@@ -41,4 +45,15 @@ body{
 }
 #emanuel:hover{
     width: 11em;
+}
+#pergunta{
+    display: flex;
+    flex-direction: row;
+    gap: 0.2em;
+}
+.Entrar{
+    color: #0033FF;
+}
+span{
+    color: red;
 }
