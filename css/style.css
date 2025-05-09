@@ -12,15 +12,15 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 2em;
+    gap: 1em;
     margin: 1em;
 }
 #options{
     display: flex;
-    gap: 3em;
+    gap: 2em;
     
 }
-.cabecario{
+.crescer_text{
     font-size: 1.5em;
     cursor: pointer;
     display: flex;
@@ -28,7 +28,7 @@ header{
     transition: linear;
     transition: 0.5s;
 }
-.cabecario:hover{
+.crescer_text:hover{
     font-size: 1.7em;
     display: flex;
     align-self: center;
@@ -70,7 +70,7 @@ header{
 }
 #separar{
     background-color: #FFB70E;
-    height: 0.5em;
+    height: 0.1em;
 }
 .texto{
     font-size: 3em;
@@ -84,7 +84,7 @@ header{
 #separacao{
     background-color: #FFB70E;
     width: 30em;
-    height: 0.2em;
+    height: 0.1em;
 }
 #saiba{
     background-color: #FFB70E;
@@ -97,6 +97,10 @@ header{
     display: flex;
     flex-direction: column;
     gap: 1em;
+
+}
+#img_compt{
+width: 30em;
 
 }
 #secao2{
@@ -127,4 +131,68 @@ header{
     display: flex;
     justify-content: center;
     gap: 5em;
+}
+#secao3{
+    padding: 8em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.cont-secao3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    margin-left: 8em;
+    margin-top: 4em;
+    
+}
+#text_rodape{
+    text-decoration: none;
+    color: white;
+}
+.title_text{
+    font-size: 2em;
+}
+#Contato{
+    background-color: white;
+    color: black;
+    width: 15em;
+    border-radius: 10em;
+    display: flex;
+   
+    justify-content: center;
+}
+#secao_contato{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#principal{
+        display: flex;
+    gap: 1em;
+    justify-content: space-around;
+}
+#voltar_topo{
+    gap: 1em;
+    display: flex;
+}
+.voltar_topo{
+    text-decoration: none;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+#logo_rodape{
+    display: flex;
+    justify-content: space-between;
+}
+#direitos{
+    font-size: 1.5em;
+    display: flex;
+    justify-content: flex-end;
 }
