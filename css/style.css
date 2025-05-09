@@ -196,3 +196,22 @@ footer{
     display: flex;
     justify-content: flex-end;
 }
+#redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7em;
+}
+#Siga-nos{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.redes_icon{
+    width: 2em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.redes_icon:hover{
+    width: 2.2em;
+}
